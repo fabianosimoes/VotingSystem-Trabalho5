@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>a75d0448-bd8a-40e8-bfeb-c43b185a478c</UserSecretsId>
@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\voting.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\voting.proto" GrpcServices="Server,Client" />
   </ItemGroup>
 
   <ItemGroup>

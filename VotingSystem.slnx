@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="AutoridadeRegisto/AutoridadeRegisto.csproj" Id="50314f27-e43a-4696-86aa-9e9df08f7ec3" />
+  <Project Path="AutoridadeVotacao/AutoridadeVotacao.csproj" Id="bf372ba9-3146-4b5f-b7c8-48d7ba84d814" />
   <Project Path="VotingSystem.RegistrationService/VotingSystem.RegistrationService.csproj" />
   <Project Path="VotingSystem.VotingSevice/VotingSystem.VotingSevice.csproj" Id="1f2ddeca-d03d-4236-b9a7-922eac6bae23" />
 </Solution>
