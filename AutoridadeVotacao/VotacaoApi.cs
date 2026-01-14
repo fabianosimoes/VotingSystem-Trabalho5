@@ -22,7 +22,7 @@ namespace AutoridadeVotacao
             };
 
             var channel = GrpcChannel.ForAddress(
-                "https://localhost:9091",  // porta do VotingService
+                "https://localhost:9091",  // porta do VotingService "https://ken01.uatd.pt:9091",//
                 new GrpcChannelOptions { HttpHandler = handler });
 
             _client = new VotingService.VotingServiceClient(channel);
@@ -31,3 +31,4 @@ namespace AutoridadeVotacao
         public static VotingService.VotingServiceClient Client => _client;
     }
 }
+(ou)
